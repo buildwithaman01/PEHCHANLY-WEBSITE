@@ -4,9 +4,10 @@ import { Globe, Smartphone, Zap, Search, Target, Users } from 'lucide-react';
 
 export const BRAND = {
   name: "Pehchanly Digital Solutions",
-  tagline: "Digital Solutions. Built for Growth.",
+  tagline: "Building Digital Identities for Business Growth",
   email: "pehchanly.digitalsolution@gmail.com",
   phone: "+91-8521264242",
+  whatsapp: "+918521264242",
   location: "India (Global Service)",
   colors: {
     bg: "bg-[#050816]",
@@ -15,6 +16,24 @@ export const BRAND = {
     gold: "text-[#ffd700]"
   }
 };
+
+export const OFFICE_LOCATION = {
+  address: "2nd Floor, Block C, 38 Canal Street, Bagmari Road",
+  city: "Kolkata",
+  state: "West Bengal",
+  pincode: "700054",
+  landmark: "Near Narkeldanga Flyover",
+  mapLink: "https://maps.google.com/?q=38+Canal+Street+Kolkata+700054",
+  hours: "Mon-Sat: 10 AM - 7 PM"
+};
+
+export const SEO_CITIES = [
+  "Mumbai", "Delhi NCR", "Bangalore", "Kolkata", "Chennai", "Hyderabad",
+  "Pune", "Ahmedabad", "Jaipur", "Surat", "Lucknow", "Kanpur", "Nagpur",
+  "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna", "Vadodara",
+  "Ghaziabad", "Ludhiana", "Agra", "Nashik", "Faridabad", "Meerut",
+  "Rajkot", "Varanasi", "Srinagar", "Amritsar", "Allahabad"
+];
 
 export const TEAM = [
   { name: "Aman Singh", role: "Founder & Lead Strategist", img: "https://ui-avatars.com/api/?name=Aman+Singh&background=00f0ff&color=0a0e27" },
@@ -135,7 +154,7 @@ export const PROCESS = [
 ];
 
 export const METRICS = [
-  { label: "Projects Delivered", value: "13+" },
+  { label: "Projects Delivered", sublabel: "Last Months", value: "13+" },
   { label: "Active Projects", value: "8" },
   { label: "Years Expertise", value: "5+" },
   { label: "Industries Served", value: "6+" }
